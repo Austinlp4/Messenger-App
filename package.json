@@ -6,7 +6,7 @@
   "author": "Austinlp4 <apendergrast44@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "node server.js",
+    "dev": "nodemon server.js",
     "build": "next build",
     "start": "NODE_ENV=production node server.js"
   },
@@ -22,5 +22,8 @@
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "sentiment": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
   }
 }
